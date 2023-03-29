@@ -3,7 +3,7 @@ export function Header(){
   return (
     <div>
       <header className="container mx-auto px-24 h-24 flex items-center justify-between">
-        <h2 className="font-black">LOGO</h2>
+        <h2 className="font-black text-gray-400">LOGO</h2>
 
         <ul className="flex gap-3">
           <li>
