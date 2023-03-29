@@ -1,14 +1,14 @@
 export function Form(){
   return (
-    <form className="flex items-center justify-center gap-2 py-10">
-      <select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+    <form className="flex flex-col items-center justify-center gap-6 py-10 sm:flex-row ">
+      <select className="bg-gray-50 px-16 py-2 border border-gray-300 rounded text-gray-500 sm:px-3 ">
         <option value="">Escolha o estado</option>
       </select>
-      <select className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+      <select className="bg-gray-50 px-16 py-2 border border-gray-300 rounded text-gray-500 sm:px-3 ">
         <option value="">Escolha a cidade</option>
       </select>
 
-      <button className="text-yellow-900 bg-yellow-400 font-medium px-3 py-2 rounded flex items-center">
+      <button className="text-yellow-900 bg-yellow-400 font-medium px-16 py-2 rounded flex items-center sm:px-3">
         <svg
           className="w-4 h-4 mr-2"
           fill="none"

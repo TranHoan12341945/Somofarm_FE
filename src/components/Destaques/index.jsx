@@ -2,8 +2,8 @@ import image from '../../assets/featured-img.png'
 
 export function Destaques(){
   return(
-      <div className="container mx-auto px-24 py-10 flex items-center justify-between">
-        <div className="flex flex-col gap-4 items-start w-1/2">
+      <div className="container max-w-6xl mx-auto px-4 py-10 flex flex-col-reverse items-center justify-between gap-10 md:flex-row">
+        <div className="flex flex-col gap-4 items-start md:w-1/2">
 
           <h3 className="text-gray-400 text-sm font-medium">Resort em Destaque</h3>
 

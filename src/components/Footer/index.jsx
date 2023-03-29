@@ -4,7 +4,7 @@ import instagram from '../../assets/icon-instagram.png'
 export function Footer(){
   return(
     <footer className="border border-gray-200">
-      <div className="container mx-auto px-24 py-8 flex items-center justify-between">
+      <div className="container max-w-6xl mx-auto px-4 py-8 flex items-center justify-between">
         <p className="text-2xl font-black text-gray-400">Logo</p>
         <div className='flex items-center gap-6'>
           <a href="#">
