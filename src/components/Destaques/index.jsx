@@ -2,22 +2,22 @@ import image from '../../assets/featured-img.png'
 
 export function Destaques(){
   return(
-      <div className="container max-w-6xl mx-auto px-4 py-10 flex flex-col-reverse items-center justify-between gap-10 md:flex-row">
-        <div className="flex flex-col gap-4 items-start md:w-1/2">
+      <div className="container flex flex-col-reverse items-center justify-between max-w-6xl gap-10 px-4 py-10 mx-auto md:flex-row">
+        <div className="flex flex-col items-start gap-4 md:w-1/2">
 
-          <h3 className="text-gray-400 text-sm font-medium">Resort em Destaque</h3>
+          <h3 className="text-sm font-medium text-gray-400">Resort cao cấp bậc nhất</h3>
 
-          <h2 className="text-gray-600 font-medium text-2xl">Ecoresort Praia do Forte Bahia</h2>
+          <h2 className="text-2xl font-medium text-gray-600">NÂNG NIU TRẢI NGHIỆM NGHỈ DƯỠNG</h2>
 
-          <p className="text-gray-400 font-medium text-sm">Hotel qualidade 5 estrelas</p>
+          <p className="text-sm font-medium text-gray-400">Đôi nét về chúng tôi</p>
 
-          <p className="text-sm text-gray-400 font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam quidem fugit, saepe ex rerum accusamus nesciunt delectus omnis temporibus</p>
+          <p className="text-sm font-medium text-gray-400">Somofarm Cửu Long là một trang trại hữu cơ nằm dọc theo dòng sông Cửu Long ở miền Nam Việt Nam. Được biết đến với việc sản xuất các loại rau, hoa quả và lúa mạch hữu cơ chất lượng cao, Somofarm Cửu Long không chỉ là một nơi cung cấp thực phẩm an toàn và lành mạnh cho người tiêu dùng mà còn là biểu tượng của sự chăm sóc môi trường và phát triển bền vững.</p>
           
-          <p className="text-sm text-gray-400 font-medium">Enim rem? Blanditiis facilis dignissimos nobis ex autem temporibus inventore laboriosam!</p>
+          <p className="text-sm font-medium text-gray-400">Với quan điểm "tôn trọng thiên nhiên, yêu quý đời sống", Somofarm Cửu Long không ngừng nghiên cứu và áp dụng các phương pháp canh tác và chăm sóc động thực vật hiện đại nhằm tối ưu hóa sản lượng mà không gây hại cho môi trường.</p>
 
           <button 
-            className="bg-orange-500 rounded px-5 py-3 font-bold hover:bg-orange-600 mt-3 flex items-center justify-center gap-2">
-            Solicitar reserva
+            className="flex items-center justify-center gap-2 px-5 py-3 mt-3 font-bold bg-orange-500 rounded hover:bg-orange-600">
+            About Us
             <svg
               className="w-5"
               fill="none" 
@@ -29,7 +29,7 @@ export function Destaques(){
             </svg>
           </button>
         </div>
-        <div className='w-auto flex flex-col items-center'>
+        <div className='flex flex-col items-center w-auto'>
           <img src={image} alt="" />
           <div className='flex gap-3 mt-2'>
             <div className='w-4 h-4 bg-gray-300 rounded-full cursor-pointer'></div>

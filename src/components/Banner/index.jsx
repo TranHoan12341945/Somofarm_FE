@@ -1,16 +1,16 @@
-import './Banner.css'
+import './Banner.css';
 import { Form } from './Form';
-export function Banner (){
+
+export function Banner() {
   return (
     <div className="banner">
-      <div className="container max-w-6xl mx-auto px-4 h-full flex flex-col items-center justify-center gap-6">
+      <div className="container flex flex-col items-center justify-center h-full max-w-6xl gap-6 px-4 mx-auto">
         <div className="text-center">
-          <h1 className="text-gray-200 text-3xl mb-2">Onde você quer ir?</h1>
-          <p className="text-green-100">
-            Escolha o estado e cidade para achar os melhores resorts.
-          </p>
+          <h1 className="mb-2 font-sans text-5xl text-white">Somofarm Cửu Long</h1>
+          <h2 className="text-2xl font-semibold text-white">
+            Đậm đà tình sông nước
+          </h2>
         </div>
-
         <Form />
       </div>
     </div>

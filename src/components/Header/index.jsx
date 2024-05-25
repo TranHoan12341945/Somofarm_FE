@@ -2,16 +2,16 @@
 export function Header(){
   return (
     <div>
-      <header className="container mx-auto max-w-6xl px-4 h-24 flex items-center justify-between">
+      <header className="container flex items-center justify-between h-24 max-w-6xl px-4 mx-auto">
         <h2 className="font-black text-gray-400">LOGO</h2>
 
-        <ul className="gap-3 hidden sm:flex">
+        <ul className="hidden gap-3 sm:flex">
           <li>
             <a
               href="#"
               className="text-sm text-gray-600 hover:text-gray-800 hover:underline"
             >
-              Como reservar
+              Trang chủ
             </a>
           </li>
           <li>
@@ -19,7 +19,7 @@ export function Header(){
               href="#"
               className="text-sm text-gray-600 hover:text-gray-800 hover:underline"
             >
-              Sobre nós
+              Về chúng tôi
             </a>
           </li>
           <li>
@@ -27,7 +27,7 @@ export function Header(){
               href="#"
               className="text-sm text-gray-600 hover:text-gray-800 hover:underline"
             >
-              Informações
+              Đặt phòng
             </a>
           </li>
           <li>
@@ -35,7 +35,7 @@ export function Header(){
               href="#"
               className="text-sm text-gray-600 hover:text-gray-800 hover:underline"
             >
-              Contato
+              Liên lạc
             </a>
           </li>
         </ul>
